@@ -53,8 +53,9 @@
 		0A8BBD75199BCD430072CE61 /* surrealism44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD6A199BCD430072CE61 /* surrealism44.jpg */; };
 		0A8BBD76199BCD430072CE61 /* surrealism88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD6B199BCD430072CE61 /* surrealism88.jpg */; };
 		0A8BBD7C199BCDEC0072CE61 /* postimpressionism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD7B199BCDEC0072CE61 /* postimpressionism.jpg */; };
-		0ACA12291A3B68C30064BC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA12281A3B68C30064BC14 /* AppDelegate.swift */; };
-		0ACA122B1A3B68EC0064BC14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA122A1A3B68EC0064BC14 /* Images.xcassets */; };
+		0ACA12431A3B728C0064BC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA12421A3B728C0064BC14 /* AppDelegate.swift */; };
+		0ACA12471A3B72B70064BC14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA12461A3B72B70064BC14 /* Images.xcassets */; };
+		0ACA12491A3B72C40064BC14 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA12481A3B72C40064BC14 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,9 +118,9 @@
 		0A8BBD6A199BCD430072CE61 /* surrealism44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surrealism44.jpg; sourceTree = "<group>"; };
 		0A8BBD6B199BCD430072CE61 /* surrealism88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surrealism88.jpg; sourceTree = "<group>"; };
 		0A8BBD7B199BCDEC0072CE61 /* postimpressionism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postimpressionism.jpg; sourceTree = "<group>"; };
-		0ACA12281A3B68C30064BC14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		0ACA122A1A3B68EC0064BC14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
-		0ACA122C1A3B68FF0064BC14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0ACA12421A3B728C0064BC14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		0ACA12461A3B72B70064BC14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0ACA12481A3B72C40064BC14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +178,7 @@
 		0A8BBCEA199ADC9D0072CE61 /* artists3 */ = {
 			isa = PBXGroup;
 			children = (
-				0ACA12281A3B68C30064BC14 /* AppDelegate.swift */,
+				0ACA12421A3B728C0064BC14 /* AppDelegate.swift */,
 				0A8BBD33199ADE2B0072CE61 /* ArtMovement.swift */,
 				0A8BBD4F199BBCF50072CE61 /* Artist.swift */,
 				0A8BBD53199BBCF50072CE61 /* DataInit.swift */,
@@ -194,8 +195,8 @@
 		0A8BBCEB199ADC9D0072CE61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0ACA122A1A3B68EC0064BC14 /* Images.xcassets */,
-				0ACA122C1A3B68FF0064BC14 /* Info.plist */,
+				0ACA12481A3B72C40064BC14 /* Info.plist */,
+				0ACA12461A3B72B70064BC14 /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -361,7 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A45FDDC199EB01200258945 /* artists152.png in Resources */,
-				0ACA122B1A3B68EC0064BC14 /* Images.xcassets in Resources */,
+				0ACA12471A3B72B70064BC14 /* Images.xcassets in Resources */,
 				0A8BBD73199BCD430072CE61 /* postimpressionism44.jpg in Resources */,
 				0A45FDC4199E966800258945 /* nouveau.jpg in Resources */,
 				0A8BBD70199BCD430072CE61 /* modern88.jpg in Resources */,
@@ -373,6 +374,7 @@
 				0A45FDC5199E966800258945 /* nouveau44.jpg in Resources */,
 				0A8BBD76199BCD430072CE61 /* surrealism88.jpg in Resources */,
 				0A8BBD7C199BCDEC0072CE61 /* postimpressionism.jpg in Resources */,
+				0ACA12491A3B72C40064BC14 /* Info.plist in Resources */,
 				0A8BBD6F199BCD430072CE61 /* modern44.jpg in Resources */,
 				0A8BBD74199BCD430072CE61 /* postimpressionism88.jpg in Resources */,
 				0A45FDCC199E983500258945 /* symbolism88.jpg in Resources */,
@@ -421,7 +423,7 @@
 				0A8BBD57199BBCF50072CE61 /* ArtMovementViewController.swift in Sources */,
 				0A8BBD58199BBCF50072CE61 /* DataInit.swift in Sources */,
 				0A8BBD34199ADE2B0072CE61 /* ArtMovement.swift in Sources */,
-				0ACA12291A3B68C30064BC14 /* AppDelegate.swift in Sources */,
+				0ACA12431A3B728C0064BC14 /* AppDelegate.swift in Sources */,
 				0A8BBD54199BBCF50072CE61 /* Artist.swift in Sources */,
 				0A8BBD56199BBCF50072CE61 /* ArtistViewController.swift in Sources */,
 			);
