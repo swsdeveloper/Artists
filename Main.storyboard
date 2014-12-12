@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xEn-Sj-ISL">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="N8F-lq-TjY">
+            <objects>
+                <navigationController id="xEn-Sj-ISL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ga2-9r-1dH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="aPb-jB-cBv"/>
+                        <segue destination="gYN-BJ-1pu" kind="push" identifier="mySegue" id="Hgq-KZ-gQN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v00-eC-5qy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-709.33333333333337" y="-542.43999999999994"/>
+        </scene>
+        <!--Art Movements-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ArtMovementViewController" customModule="artists3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="92" sectionHeaderHeight="22" sectionFooterHeight="22" id="gG3-H0-O68">
+                                <rect key="frame" x="0.0" y="0.0" width="640" height="1136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="NYf-gB-dUL"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="lxv-0i-N9p"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Art Movements" id="eK2-9i-qz2"/>
+                    <connections>
+                        <outlet property="tableView" destination="gG3-H0-O68" id="N7X-rs-LKS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="-543"/>
+        </scene>
+        <!--Artist View Controller-->
+        <scene sceneID="pGd-aw-yAn">
+            <objects>
+                <viewController storyboardIdentifier="ArtistViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gYN-BJ-1pu" customClass="ArtistViewController" customModule="artists3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y9q-FS-ySy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Sxh-xh-A37">
+                                <rect key="frame" x="0.0" y="0.0" width="640" height="1136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="gYN-BJ-1pu" id="Wcm-Lp-Fkd"/>
+                                    <outlet property="delegate" destination="gYN-BJ-1pu" id="q3V-Cn-P1l"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oge-6D-lnH"/>
+                    <connections>
+                        <outlet property="tableView" destination="Sxh-xh-A37" id="cea-HL-QKr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2g-Fe-8np" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem id="und-WS-Gat">
+                    <barButtonItem key="rightBarButtonItem" style="done" systemItem="edit" id="aEV-MO-xoW">
+                        <connections>
+                            <action selector="edit:" destination="gYN-BJ-1pu" id="T5H-wc-dOG"/>
+                        </connections>
+                    </barButtonItem>
+                </navigationItem>
+            </objects>
+            <point key="canvasLocation" x="34" y="-543"/>
+        </scene>
+        <!--Artist Detail View Controller-->
+        <scene sceneID="9rP-lm-ype">
+            <objects>
+                <viewController storyboardIdentifier="ArtistDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cxd-5x-kxB" customClass="ArtistDetailViewController" customModule="artists3" customModuleProvider="target" sceneMemberID="viewController">
+                    <scrollView key="view" opaque="NO" multipleTouchEnabled="YES" contentMode="TopLeft" canCancelContentTouches="NO" minimumZoomScale="2.5" id="b9E-8w-GfS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="TopLeft" scalesPageToFit="YES" id="bNc-yb-S2T">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                        </subviews>
+                    </scrollView>
+                    <connections>
+                        <outlet property="scrollView" destination="b9E-8w-GfS" id="QJP-nf-vkR"/>
+                        <outlet property="webView" destination="bNc-yb-S2T" id="Bim-ZQ-PbM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMW-zX-t6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398" y="-543"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

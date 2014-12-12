@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A45FDBE199E919400258945 /* naive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDBB199E919400258945 /* naive.jpg */; };
+		0A45FDBF199E919400258945 /* naive44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDBC199E919400258945 /* naive44.jpg */; };
+		0A45FDC0199E919400258945 /* naive88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDBD199E919400258945 /* naive88.jpg */; };
+		0A45FDC4199E966800258945 /* nouveau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDC1199E966800258945 /* nouveau.jpg */; };
+		0A45FDC5199E966800258945 /* nouveau44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDC2199E966800258945 /* nouveau44.jpg */; };
+		0A45FDC6199E966800258945 /* nouveau88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDC3199E966800258945 /* nouveau88.jpg */; };
+		0A45FDCA199E983500258945 /* symbolism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDC7199E983500258945 /* symbolism.jpg */; };
+		0A45FDCB199E983500258945 /* symbolism44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDC8199E983500258945 /* symbolism44.jpg */; };
+		0A45FDCC199E983500258945 /* symbolism88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDC9199E983500258945 /* symbolism88.jpg */; };
+		0A45FDD0199EA57300258945 /* artists58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDCF199EA57300258945 /* artists58.png */; };
+		0A45FDD2199EAC7300258945 /* artists76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDD1199EAC7300258945 /* artists76.png */; };
+		0A45FDD4199EACDA00258945 /* artists120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDD3199EACDA00258945 /* artists120.png */; };
+		0A45FDD6199EAD4500258945 /* artists80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDD5199EAD4500258945 /* artists80.png */; };
+		0A45FDD8199EAF6B00258945 /* artists29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDD7199EAF6B00258945 /* artists29.png */; };
+		0A45FDDA199EAFCB00258945 /* artists40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDD9199EAFCB00258945 /* artists40.png */; };
+		0A45FDDC199EB01200258945 /* artists152.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDDB199EB01200258945 /* artists152.png */; };
+		0A45FDDF199EB06100258945 /* artists.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A45FDDE199EB06100258945 /* artists.png */; };
+		0A67254019A11AB100170064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A67253F19A11AB100170064 /* Main.storyboard */; };
+		0A8BBD01199ADC9D0072CE61 /* artists3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD00199ADC9D0072CE61 /* artists3Tests.swift */; };
+		0A8BBD34199ADE2B0072CE61 /* ArtMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD33199ADE2B0072CE61 /* ArtMovement.swift */; };
+		0A8BBD41199AEDD80072CE61 /* impressionism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD3D199AEDD80072CE61 /* impressionism.jpg */; };
+		0A8BBD43199AEDD80072CE61 /* popart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD3F199AEDD80072CE61 /* popart.jpg */; };
+		0A8BBD44199AEDD80072CE61 /* surrealism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD40199AEDD80072CE61 /* surrealism.jpg */; };
+		0A8BBD4A199B08FB0072CE61 /* abstract.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD49199B08FB0072CE61 /* abstract.jpg */; };
+		0A8BBD4E199B1D060072CE61 /* expressionism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD4D199B1D060072CE61 /* expressionism.jpg */; };
+		0A8BBD54199BBCF50072CE61 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD4F199BBCF50072CE61 /* Artist.swift */; };
+		0A8BBD55199BBCF50072CE61 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD50199BBCF50072CE61 /* ArtistDetailViewController.swift */; };
+		0A8BBD56199BBCF50072CE61 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD51199BBCF50072CE61 /* ArtistViewController.swift */; };
+		0A8BBD57199BBCF50072CE61 /* ArtMovementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD52199BBCF50072CE61 /* ArtMovementViewController.swift */; };
+		0A8BBD58199BBCF50072CE61 /* DataInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BBD53199BBCF50072CE61 /* DataInit.swift */; };
+		0A8BBD5A199BC6430072CE61 /* modern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD59199BC6430072CE61 /* modern.jpg */; };
+		0A8BBD5C199BC7D60072CE61 /* abstract44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD5B199BC7D60072CE61 /* abstract44.jpg */; };
+		0A8BBD5E199BC7E00072CE61 /* abstract88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD5D199BC7E00072CE61 /* abstract88.jpg */; };
+		0A8BBD60199BCD270072CE61 /* expressionism44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD5F199BCD270072CE61 /* expressionism44.jpg */; };
+		0A8BBD6C199BCD430072CE61 /* expressionism88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD61199BCD430072CE61 /* expressionism88.jpg */; };
+		0A8BBD6D199BCD430072CE61 /* impressionism44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD62199BCD430072CE61 /* impressionism44.jpg */; };
+		0A8BBD6E199BCD430072CE61 /* impressionism88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD63199BCD430072CE61 /* impressionism88.jpg */; };
+		0A8BBD6F199BCD430072CE61 /* modern44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD64199BCD430072CE61 /* modern44.jpg */; };
+		0A8BBD70199BCD430072CE61 /* modern88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD65199BCD430072CE61 /* modern88.jpg */; };
+		0A8BBD71199BCD430072CE61 /* popart44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD66199BCD430072CE61 /* popart44.jpg */; };
+		0A8BBD72199BCD430072CE61 /* popart88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD67199BCD430072CE61 /* popart88.jpg */; };
+		0A8BBD73199BCD430072CE61 /* postimpressionism44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD68199BCD430072CE61 /* postimpressionism44.jpg */; };
+		0A8BBD74199BCD430072CE61 /* postimpressionism88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD69199BCD430072CE61 /* postimpressionism88.jpg */; };
+		0A8BBD75199BCD430072CE61 /* surrealism44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD6A199BCD430072CE61 /* surrealism44.jpg */; };
+		0A8BBD76199BCD430072CE61 /* surrealism88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD6B199BCD430072CE61 /* surrealism88.jpg */; };
+		0A8BBD7C199BCDEC0072CE61 /* postimpressionism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BBD7B199BCDEC0072CE61 /* postimpressionism.jpg */; };
+		0ACA12291A3B68C30064BC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA12281A3B68C30064BC14 /* AppDelegate.swift */; };
+		0ACA122B1A3B68EC0064BC14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA122A1A3B68EC0064BC14 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8BBCFB199ADC9D0072CE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8BBCE0199ADC9D0072CE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8BBCE7199ADC9D0072CE61;
+			remoteInfo = artists;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A45FDBB199E919400258945 /* naive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naive.jpg; sourceTree = "<group>"; };
+		0A45FDBC199E919400258945 /* naive44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naive44.jpg; sourceTree = "<group>"; };
+		0A45FDBD199E919400258945 /* naive88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naive88.jpg; sourceTree = "<group>"; };
+		0A45FDC1199E966800258945 /* nouveau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nouveau.jpg; sourceTree = "<group>"; };
+		0A45FDC2199E966800258945 /* nouveau44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nouveau44.jpg; sourceTree = "<group>"; };
+		0A45FDC3199E966800258945 /* nouveau88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nouveau88.jpg; sourceTree = "<group>"; };
+		0A45FDC7199E983500258945 /* symbolism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = symbolism.jpg; sourceTree = "<group>"; };
+		0A45FDC8199E983500258945 /* symbolism44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = symbolism44.jpg; sourceTree = "<group>"; };
+		0A45FDC9199E983500258945 /* symbolism88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = symbolism88.jpg; sourceTree = "<group>"; };
+		0A45FDCF199EA57300258945 /* artists58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists58.png; sourceTree = "<group>"; };
+		0A45FDD1199EAC7300258945 /* artists76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists76.png; sourceTree = "<group>"; };
+		0A45FDD3199EACDA00258945 /* artists120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists120.png; sourceTree = "<group>"; };
+		0A45FDD5199EAD4500258945 /* artists80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists80.png; sourceTree = "<group>"; };
+		0A45FDD7199EAF6B00258945 /* artists29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists29.png; sourceTree = "<group>"; };
+		0A45FDD9199EAFCB00258945 /* artists40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists40.png; sourceTree = "<group>"; };
+		0A45FDDB199EB01200258945 /* artists152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists152.png; sourceTree = "<group>"; };
+		0A45FDDE199EB06100258945 /* artists.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists.png; sourceTree = "<group>"; };
+		0A67253F19A11AB100170064 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		0A8BBCE8199ADC9D0072CE61 /* artists3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artists3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8BBCFA199ADC9D0072CE61 /* artists3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = artists3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8BBCFF199ADC9D0072CE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8BBD00199ADC9D0072CE61 /* artists3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artists3Tests.swift; sourceTree = "<group>"; };
+		0A8BBD33199ADE2B0072CE61 /* ArtMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtMovement.swift; sourceTree = SOURCE_ROOT; };
+		0A8BBD3D199AEDD80072CE61 /* impressionism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impressionism.jpg; sourceTree = "<group>"; };
+		0A8BBD3F199AEDD80072CE61 /* popart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popart.jpg; sourceTree = "<group>"; };
+		0A8BBD40199AEDD80072CE61 /* surrealism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surrealism.jpg; sourceTree = "<group>"; };
+		0A8BBD49199B08FB0072CE61 /* abstract.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstract.jpg; sourceTree = "<group>"; };
+		0A8BBD4D199B1D060072CE61 /* expressionism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = expressionism.jpg; sourceTree = SOURCE_ROOT; };
+		0A8BBD4F199BBCF50072CE61 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = SOURCE_ROOT; };
+		0A8BBD50199BBCF50072CE61 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		0A8BBD51199BBCF50072CE61 /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = SOURCE_ROOT; };
+		0A8BBD52199BBCF50072CE61 /* ArtMovementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtMovementViewController.swift; sourceTree = SOURCE_ROOT; };
+		0A8BBD53199BBCF50072CE61 /* DataInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInit.swift; sourceTree = SOURCE_ROOT; };
+		0A8BBD59199BC6430072CE61 /* modern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = modern.jpg; sourceTree = "<group>"; };
+		0A8BBD5B199BC7D60072CE61 /* abstract44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstract44.jpg; sourceTree = "<group>"; };
+		0A8BBD5D199BC7E00072CE61 /* abstract88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstract88.jpg; sourceTree = "<group>"; };
+		0A8BBD5F199BCD270072CE61 /* expressionism44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = expressionism44.jpg; sourceTree = "<group>"; };
+		0A8BBD61199BCD430072CE61 /* expressionism88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = expressionism88.jpg; sourceTree = "<group>"; };
+		0A8BBD62199BCD430072CE61 /* impressionism44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impressionism44.jpg; sourceTree = "<group>"; };
+		0A8BBD63199BCD430072CE61 /* impressionism88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impressionism88.jpg; sourceTree = "<group>"; };
+		0A8BBD64199BCD430072CE61 /* modern44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = modern44.jpg; sourceTree = "<group>"; };
+		0A8BBD65199BCD430072CE61 /* modern88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = modern88.jpg; sourceTree = "<group>"; };
+		0A8BBD66199BCD430072CE61 /* popart44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popart44.jpg; sourceTree = "<group>"; };
+		0A8BBD67199BCD430072CE61 /* popart88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popart88.jpg; sourceTree = "<group>"; };
+		0A8BBD68199BCD430072CE61 /* postimpressionism44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postimpressionism44.jpg; sourceTree = "<group>"; };
+		0A8BBD69199BCD430072CE61 /* postimpressionism88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postimpressionism88.jpg; sourceTree = "<group>"; };
+		0A8BBD6A199BCD430072CE61 /* surrealism44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surrealism44.jpg; sourceTree = "<group>"; };
+		0A8BBD6B199BCD430072CE61 /* surrealism88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surrealism88.jpg; sourceTree = "<group>"; };
+		0A8BBD7B199BCDEC0072CE61 /* postimpressionism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postimpressionism.jpg; sourceTree = "<group>"; };
+		0ACA12281A3B68C30064BC14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		0ACA122A1A3B68EC0064BC14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		0ACA122C1A3B68FF0064BC14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8BBCE5199ADC9D0072CE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8BBCF7199ADC9D0072CE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A45FDDD199EB04200258945 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0A45FDDE199EB06100258945 /* artists.png */,
+				0A45FDD7199EAF6B00258945 /* artists29.png */,
+				0A45FDD9199EAFCB00258945 /* artists40.png */,
+				0A45FDCF199EA57300258945 /* artists58.png */,
+				0A45FDD1199EAC7300258945 /* artists76.png */,
+				0A45FDD5199EAD4500258945 /* artists80.png */,
+				0A45FDD3199EACDA00258945 /* artists120.png */,
+				0A45FDDB199EB01200258945 /* artists152.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		0A8BBCDF199ADC9D0072CE61 = {
+			isa = PBXGroup;
+			children = (
+				0A8BBD77199BCD550072CE61 /* Images */,
+				0A8BBCEA199ADC9D0072CE61 /* artists3 */,
+				0A8BBCFD199ADC9D0072CE61 /* artists3Tests */,
+				0A8BBCE9199ADC9D0072CE61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8BBCE9199ADC9D0072CE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BBCE8199ADC9D0072CE61 /* artists3.app */,
+				0A8BBCFA199ADC9D0072CE61 /* artists3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8BBCEA199ADC9D0072CE61 /* artists3 */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA12281A3B68C30064BC14 /* AppDelegate.swift */,
+				0A8BBD33199ADE2B0072CE61 /* ArtMovement.swift */,
+				0A8BBD4F199BBCF50072CE61 /* Artist.swift */,
+				0A8BBD53199BBCF50072CE61 /* DataInit.swift */,
+				0A8BBD52199BBCF50072CE61 /* ArtMovementViewController.swift */,
+				0A8BBD51199BBCF50072CE61 /* ArtistViewController.swift */,
+				0A8BBD50199BBCF50072CE61 /* ArtistDetailViewController.swift */,
+				0A67253F19A11AB100170064 /* Main.storyboard */,
+				0A8BBCEB199ADC9D0072CE61 /* Supporting Files */,
+			);
+			name = artists3;
+			path = artists;
+			sourceTree = "<group>";
+		};
+		0A8BBCEB199ADC9D0072CE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA122A1A3B68EC0064BC14 /* Images.xcassets */,
+				0ACA122C1A3B68FF0064BC14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8BBCFD199ADC9D0072CE61 /* artists3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BBD00199ADC9D0072CE61 /* artists3Tests.swift */,
+				0A8BBCFE199ADC9D0072CE61 /* Supporting Files */,
+			);
+			name = artists3Tests;
+			path = artistsTests;
+			sourceTree = "<group>";
+		};
+		0A8BBCFE199ADC9D0072CE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BBCFF199ADC9D0072CE61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8BBD77199BCD550072CE61 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0A45FDDD199EB04200258945 /* Icons */,
+				0A8BBD7A199BCDBE0072CE61 /* Images Original Sizes */,
+				0A8BBD78199BCD640072CE61 /* Images 44 by 44 */,
+				0A8BBD79199BCDA20072CE61 /* Images 88 by 88 */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0A8BBD78199BCD640072CE61 /* Images 44 by 44 */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BBD5B199BC7D60072CE61 /* abstract44.jpg */,
+				0A8BBD5F199BCD270072CE61 /* expressionism44.jpg */,
+				0A8BBD62199BCD430072CE61 /* impressionism44.jpg */,
+				0A8BBD64199BCD430072CE61 /* modern44.jpg */,
+				0A45FDBC199E919400258945 /* naive44.jpg */,
+				0A45FDC2199E966800258945 /* nouveau44.jpg */,
+				0A8BBD66199BCD430072CE61 /* popart44.jpg */,
+				0A8BBD68199BCD430072CE61 /* postimpressionism44.jpg */,
+				0A8BBD6A199BCD430072CE61 /* surrealism44.jpg */,
+				0A45FDC8199E983500258945 /* symbolism44.jpg */,
+			);
+			name = "Images 44 by 44";
+			sourceTree = "<group>";
+		};
+		0A8BBD79199BCDA20072CE61 /* Images 88 by 88 */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BBD5D199BC7E00072CE61 /* abstract88.jpg */,
+				0A8BBD61199BCD430072CE61 /* expressionism88.jpg */,
+				0A8BBD63199BCD430072CE61 /* impressionism88.jpg */,
+				0A8BBD65199BCD430072CE61 /* modern88.jpg */,
+				0A45FDBD199E919400258945 /* naive88.jpg */,
+				0A45FDC3199E966800258945 /* nouveau88.jpg */,
+				0A8BBD67199BCD430072CE61 /* popart88.jpg */,
+				0A8BBD69199BCD430072CE61 /* postimpressionism88.jpg */,
+				0A8BBD6B199BCD430072CE61 /* surrealism88.jpg */,
+				0A45FDC9199E983500258945 /* symbolism88.jpg */,
+			);
+			name = "Images 88 by 88";
+			sourceTree = "<group>";
+		};
+		0A8BBD7A199BCDBE0072CE61 /* Images Original Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BBD49199B08FB0072CE61 /* abstract.jpg */,
+				0A8BBD4D199B1D060072CE61 /* expressionism.jpg */,
+				0A8BBD3D199AEDD80072CE61 /* impressionism.jpg */,
+				0A8BBD59199BC6430072CE61 /* modern.jpg */,
+				0A45FDBB199E919400258945 /* naive.jpg */,
+				0A45FDC1199E966800258945 /* nouveau.jpg */,
+				0A8BBD3F199AEDD80072CE61 /* popart.jpg */,
+				0A8BBD7B199BCDEC0072CE61 /* postimpressionism.jpg */,
+				0A8BBD40199AEDD80072CE61 /* surrealism.jpg */,
+				0A45FDC7199E983500258945 /* symbolism.jpg */,
+			);
+			name = "Images Original Sizes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8BBCE7199ADC9D0072CE61 /* artists3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8BBD04199ADC9D0072CE61 /* Build configuration list for PBXNativeTarget "artists3" */;
+			buildPhases = (
+				0A8BBCE4199ADC9D0072CE61 /* Sources */,
+				0A8BBCE5199ADC9D0072CE61 /* Frameworks */,
+				0A8BBCE6199ADC9D0072CE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = artists3;
+			productName = artists;
+			productReference = 0A8BBCE8199ADC9D0072CE61 /* artists3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8BBCF9199ADC9D0072CE61 /* artists3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8BBD07199ADC9D0072CE61 /* Build configuration list for PBXNativeTarget "artists3Tests" */;
+			buildPhases = (
+				0A8BBCF6199ADC9D0072CE61 /* Sources */,
+				0A8BBCF7199ADC9D0072CE61 /* Frameworks */,
+				0A8BBCF8199ADC9D0072CE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8BBCFC199ADC9D0072CE61 /* PBXTargetDependency */,
+			);
+			name = artists3Tests;
+			productName = artistsTests;
+			productReference = 0A8BBCFA199ADC9D0072CE61 /* artists3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8BBCE0199ADC9D0072CE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Steven Shatz";
+				TargetAttributes = {
+					0A8BBCE7199ADC9D0072CE61 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					0A8BBCF9199ADC9D0072CE61 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0A8BBCE7199ADC9D0072CE61;
+					};
+				};
+			};
+			buildConfigurationList = 0A8BBCE3199ADC9D0072CE61 /* Build configuration list for PBXProject "artists3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8BBCDF199ADC9D0072CE61;
+			productRefGroup = 0A8BBCE9199ADC9D0072CE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8BBCE7199ADC9D0072CE61 /* artists3 */,
+				0A8BBCF9199ADC9D0072CE61 /* artists3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8BBCE6199ADC9D0072CE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A45FDDC199EB01200258945 /* artists152.png in Resources */,
+				0ACA122B1A3B68EC0064BC14 /* Images.xcassets in Resources */,
+				0A8BBD73199BCD430072CE61 /* postimpressionism44.jpg in Resources */,
+				0A45FDC4199E966800258945 /* nouveau.jpg in Resources */,
+				0A8BBD70199BCD430072CE61 /* modern88.jpg in Resources */,
+				0A8BBD72199BCD430072CE61 /* popart88.jpg in Resources */,
+				0A45FDBE199E919400258945 /* naive.jpg in Resources */,
+				0A45FDBF199E919400258945 /* naive44.jpg in Resources */,
+				0A8BBD60199BCD270072CE61 /* expressionism44.jpg in Resources */,
+				0A45FDD2199EAC7300258945 /* artists76.png in Resources */,
+				0A45FDC5199E966800258945 /* nouveau44.jpg in Resources */,
+				0A8BBD76199BCD430072CE61 /* surrealism88.jpg in Resources */,
+				0A8BBD7C199BCDEC0072CE61 /* postimpressionism.jpg in Resources */,
+				0A8BBD6F199BCD430072CE61 /* modern44.jpg in Resources */,
+				0A8BBD74199BCD430072CE61 /* postimpressionism88.jpg in Resources */,
+				0A45FDCC199E983500258945 /* symbolism88.jpg in Resources */,
+				0A8BBD5E199BC7E00072CE61 /* abstract88.jpg in Resources */,
+				0A8BBD5A199BC6430072CE61 /* modern.jpg in Resources */,
+				0A45FDD0199EA57300258945 /* artists58.png in Resources */,
+				0A45FDC6199E966800258945 /* nouveau88.jpg in Resources */,
+				0A67254019A11AB100170064 /* Main.storyboard in Resources */,
+				0A8BBD6D199BCD430072CE61 /* impressionism44.jpg in Resources */,
+				0A8BBD4A199B08FB0072CE61 /* abstract.jpg in Resources */,
+				0A8BBD4E199B1D060072CE61 /* expressionism.jpg in Resources */,
+				0A45FDCA199E983500258945 /* symbolism.jpg in Resources */,
+				0A8BBD71199BCD430072CE61 /* popart44.jpg in Resources */,
+				0A45FDDA199EAFCB00258945 /* artists40.png in Resources */,
+				0A8BBD43199AEDD80072CE61 /* popart.jpg in Resources */,
+				0A8BBD75199BCD430072CE61 /* surrealism44.jpg in Resources */,
+				0A45FDCB199E983500258945 /* symbolism44.jpg in Resources */,
+				0A45FDC0199E919400258945 /* naive88.jpg in Resources */,
+				0A8BBD41199AEDD80072CE61 /* impressionism.jpg in Resources */,
+				0A8BBD5C199BC7D60072CE61 /* abstract44.jpg in Resources */,
+				0A45FDDF199EB06100258945 /* artists.png in Resources */,
+				0A8BBD6E199BCD430072CE61 /* impressionism88.jpg in Resources */,
+				0A45FDD4199EACDA00258945 /* artists120.png in Resources */,
+				0A45FDD8199EAF6B00258945 /* artists29.png in Resources */,
+				0A8BBD44199AEDD80072CE61 /* surrealism.jpg in Resources */,
+				0A45FDD6199EAD4500258945 /* artists80.png in Resources */,
+				0A8BBD6C199BCD430072CE61 /* expressionism88.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8BBCF8199ADC9D0072CE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8BBCE4199ADC9D0072CE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8BBD55199BBCF50072CE61 /* ArtistDetailViewController.swift in Sources */,
+				0A8BBD57199BBCF50072CE61 /* ArtMovementViewController.swift in Sources */,
+				0A8BBD58199BBCF50072CE61 /* DataInit.swift in Sources */,
+				0A8BBD34199ADE2B0072CE61 /* ArtMovement.swift in Sources */,
+				0ACA12291A3B68C30064BC14 /* AppDelegate.swift in Sources */,
+				0A8BBD54199BBCF50072CE61 /* Artist.swift in Sources */,
+				0A8BBD56199BBCF50072CE61 /* ArtistViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8BBCF6199ADC9D0072CE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8BBD01199ADC9D0072CE61 /* artists3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8BBCFC199ADC9D0072CE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8BBCE7199ADC9D0072CE61 /* artists3 */;
+			targetProxy = 0A8BBCFB199ADC9D0072CE61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A8BBD02199ADC9D0072CE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A8BBD03199ADC9D0072CE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8BBD05199ADC9D0072CE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = artists3;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A8BBD06199ADC9D0072CE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = artists3;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		0A8BBD08199ADC9D0072CE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = artistsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = artists3Tests;
+			};
+			name = Debug;
+		};
+		0A8BBD09199ADC9D0072CE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = artistsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = artists3Tests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8BBCE3199ADC9D0072CE61 /* Build configuration list for PBXProject "artists3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8BBD02199ADC9D0072CE61 /* Debug */,
+				0A8BBD03199ADC9D0072CE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8BBD04199ADC9D0072CE61 /* Build configuration list for PBXNativeTarget "artists3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8BBD05199ADC9D0072CE61 /* Debug */,
+				0A8BBD06199ADC9D0072CE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8BBD07199ADC9D0072CE61 /* Build configuration list for PBXNativeTarget "artists3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8BBD08199ADC9D0072CE61 /* Debug */,
+				0A8BBD09199ADC9D0072CE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8BBCE0199ADC9D0072CE61 /* Project object */;
+}
